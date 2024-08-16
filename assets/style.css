@@ -1,0 +1,79 @@
+:root {
+    --background: #000000;
+    --primary: #333333;
+    --foreground: #e7f4c9;
+    --secondary: #909090;
+    --secondary-light: #c8c8c8;
+    --dark-blue: #1A3A5B;
+    --medium-gray: #D1D1D1;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, var(--dark-blue) 50%, var(--medium-gray) 50%);
+    color: var(--primary);
+    height: 100vh;
+    margin: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+header img {
+    width: auto;
+    height: 8rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+main section {
+    display: flex;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.849); /* Bege médio com 80% de opacidade */
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 80rem;
+    border-radius: 0.5rem;
+}
+
+
+main section span {
+    display: block;
+    margin-right: 1rem;
+    color: black;
+    font-size: 5rem;
+}
+
+main section input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    color: #35524A;
+    font-size: 5rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--secondary);
+}
